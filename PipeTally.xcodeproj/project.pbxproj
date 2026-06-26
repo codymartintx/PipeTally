@@ -9,23 +9,21 @@
 /* Begin PBXBuildFile section */
 		06C81C900FC39D1257DE04E5 /* TallyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE145E543E2EA657F085799 /* TallyModels.swift */; };
 		143B56A741E9A4EC0FB57714 /* ScanPrototypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8993335D224C2A716BB76D /* ScanPrototypeView.swift */; };
-		159DC6B60A4B70857057399B /* SampleBookSplit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 66CACF34F66D4BCE8668897D /* SampleBookSplit.jpeg */; };
 		249411DB26F2915BB4572C93 /* TallyOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCC45E938FA6726DCE37928 /* TallyOCRService.swift */; };
 		2CF51793861E1866C3038F0D /* PipeTallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819611C53D0534A4F0EAA59 /* PipeTallyApp.swift */; };
-		3ADCC55B6BADF77F1F2B2472 /* SampleSheet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 957E6B9CD0AAD7220313EB6E /* SampleSheet2.png */; };
 		4D03D018A223B96901DCDEA4 /* TallyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9404EA63E04222050328C4 /* TallyParser.swift */; };
 		5746CCB06B11AD7804CC9B06 /* TallyExcelExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F5FA5636DC36B84A5D8A /* TallyExcelExporter.swift */; };
-		8547431CF6A315001CA392B7 /* SampleSheet1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94D69A04A78094EBE75D47BB /* SampleSheet1.png */; };
+		823B6E6A0319703617959B9A /* SampleSheetStart1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90B3B4C1892ECD1B4B2447D1 /* SampleSheetStart1.jpeg */; };
 		9CC86C7A6067331BE68DB732 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B3F9054A25A8DD45E24CD /* ScanViewModel.swift */; };
+		9F7C050FF7CECB442B366D87 /* SampleSheetStart101.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2810DA06758FD7F425FDE20F /* SampleSheetStart101.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2810DA06758FD7F425FDE20F /* SampleSheetStart101.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleSheetStart101.jpeg; sourceTree = "<group>"; };
 		30B4F5FA5636DC36B84A5D8A /* TallyExcelExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyExcelExporter.swift; sourceTree = "<group>"; };
-		66CACF34F66D4BCE8668897D /* SampleBookSplit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleBookSplit.jpeg; sourceTree = "<group>"; };
 		7AE145E543E2EA657F085799 /* TallyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyModels.swift; sourceTree = "<group>"; };
 		7BCC45E938FA6726DCE37928 /* TallyOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyOCRService.swift; sourceTree = "<group>"; };
-		94D69A04A78094EBE75D47BB /* SampleSheet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleSheet1.png; sourceTree = "<group>"; };
-		957E6B9CD0AAD7220313EB6E /* SampleSheet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SampleSheet2.png; sourceTree = "<group>"; };
+		90B3B4C1892ECD1B4B2447D1 /* SampleSheetStart1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleSheetStart1.jpeg; sourceTree = "<group>"; };
 		982B3F9054A25A8DD45E24CD /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
 		CD8993335D224C2A716BB76D /* ScanPrototypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanPrototypeView.swift; sourceTree = "<group>"; };
 		DE9404EA63E04222050328C4 /* TallyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyParser.swift; sourceTree = "<group>"; };
@@ -86,9 +84,8 @@
 		9D1C86FC072404568684967E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				66CACF34F66D4BCE8668897D /* SampleBookSplit.jpeg */,
-				94D69A04A78094EBE75D47BB /* SampleSheet1.png */,
-				957E6B9CD0AAD7220313EB6E /* SampleSheet2.png */,
+				90B3B4C1892ECD1B4B2447D1 /* SampleSheetStart1.jpeg */,
+				2810DA06758FD7F425FDE20F /* SampleSheetStart101.jpeg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -161,9 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159DC6B60A4B70857057399B /* SampleBookSplit.jpeg in Resources */,
-				8547431CF6A315001CA392B7 /* SampleSheet1.png in Resources */,
-				3ADCC55B6BADF77F1F2B2472 /* SampleSheet2.png in Resources */,
+				823B6E6A0319703617959B9A /* SampleSheetStart1.jpeg in Resources */,
+				9F7C050FF7CECB442B366D87 /* SampleSheetStart101.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

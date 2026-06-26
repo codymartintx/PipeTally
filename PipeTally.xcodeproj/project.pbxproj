@@ -13,6 +13,7 @@
 		2CF51793861E1866C3038F0D /* PipeTallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F819611C53D0534A4F0EAA59 /* PipeTallyApp.swift */; };
 		4D03D018A223B96901DCDEA4 /* TallyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9404EA63E04222050328C4 /* TallyParser.swift */; };
 		5746CCB06B11AD7804CC9B06 /* TallyExcelExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F5FA5636DC36B84A5D8A /* TallyExcelExporter.swift */; };
+		68F19C2E630A894C11828ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61970D727B2A1A2E83BECA0F /* Assets.xcassets */; };
 		823B6E6A0319703617959B9A /* SampleSheetStart1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 90B3B4C1892ECD1B4B2447D1 /* SampleSheetStart1.jpeg */; };
 		9CC86C7A6067331BE68DB732 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B3F9054A25A8DD45E24CD /* ScanViewModel.swift */; };
 		9F7C050FF7CECB442B366D87 /* SampleSheetStart101.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2810DA06758FD7F425FDE20F /* SampleSheetStart101.jpeg */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		2810DA06758FD7F425FDE20F /* SampleSheetStart101.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleSheetStart101.jpeg; sourceTree = "<group>"; };
 		30B4F5FA5636DC36B84A5D8A /* TallyExcelExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyExcelExporter.swift; sourceTree = "<group>"; };
+		61970D727B2A1A2E83BECA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE145E543E2EA657F085799 /* TallyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyModels.swift; sourceTree = "<group>"; };
 		7BCC45E938FA6726DCE37928 /* TallyOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyOCRService.swift; sourceTree = "<group>"; };
 		90B3B4C1892ECD1B4B2447D1 /* SampleSheetStart1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SampleSheetStart1.jpeg; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		8A550752CC3DF72EAA7335D4 /* PipeTally */ = {
 			isa = PBXGroup;
 			children = (
+				61970D727B2A1A2E83BECA0F /* Assets.xcassets */,
 				ED9BB1983743AA9423330838 /* Info.plist */,
 				F819611C53D0534A4F0EAA59 /* PipeTallyApp.swift */,
 				71A02DB5B3F7987F699A90D2 /* Features */,
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F19C2E630A894C11828ECC /* Assets.xcassets in Resources */,
 				823B6E6A0319703617959B9A /* SampleSheetStart1.jpeg in Resources */,
 				9F7C050FF7CECB442B366D87 /* SampleSheetStart101.jpeg in Resources */,
 			);

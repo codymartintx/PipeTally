@@ -1,0 +1,13 @@
+.DS_Store
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata/
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Local/generated exports
+tmp/
+output/
